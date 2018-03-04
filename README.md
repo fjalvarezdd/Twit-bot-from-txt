@@ -1,4 +1,4 @@
-# Twit-bot-from-txt
+# Twit bot from TXT file
 
 Tweet books into chunked twits.
 
@@ -7,8 +7,7 @@ Examples:
 - https://twitter.com/1984In5kTweets
 
 
-DEVELOPMENT
-===========
+# Development and use
 
 You can run the script using:
 ```
