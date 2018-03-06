@@ -12,8 +12,7 @@ OptionParser.new do |opts|
   opts.on('-s', '--consumer_secret SOURCE', 'Twitter API Consumer Secret') { |v| options[:consumer_secret] = v }
   opts.on('-a', '--access_token TOKEN', 'Twitter API Access Token') { |v| options[:access_token] = v }
   opts.on('-t', '--access_token_secret SECRET', 'Twitter API Access Token Secret') { |v| options[:access_token_secret] = v }
-
-
+  
 end.parse!
 
 client = Twitter::REST::Client.new do |config|
